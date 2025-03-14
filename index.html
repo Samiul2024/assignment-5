@@ -22,10 +22,10 @@
             </div>
             <div class="flex justify-between gap-11 items-center">
                 <div class="flex justify-between gap-2 bg-[#F4F7FF]  px-4 py-3 rounded-full">
-                    <img class="h-8 w-8" src="./assets/checkbox.png" alt="">
+                    <img class=" h-8 w-8" src="./assets/checkbox.png" alt="">
                     <h1 id="task-completed" class="text-3xl font-bold">23</h1>
                 </div>
-                <img class="bg-[#F4F7FF]  p-4 rounded-full" src="./assets/theme-btn.png" alt="">
+                <img id="theme-btn" class="color-change bg-[#F4F7FF]  p-4 rounded-full" src="./assets/theme-btn.png" alt="">
             </div>
         </nav>
     </header>
@@ -42,7 +42,7 @@
                         </div>
                         <div>
                             <p>Task Assigned</p>
-                            <h1 id="task-assigned" class="font-bold text-3xl">05</h1>
+                            <h1 id="task-assigned" class="font-bold text-3xl">6</h1>
                         </div>
                     </div>
                     <!-- task-2  discover something new-->
@@ -94,7 +94,7 @@
                     <div class="card-2 bg-[#F4F7FF] p-6 rounded-2xl">
                         <div class="card-details flex flex-col gap-4">
                             <p class="bg-white text-base p-4 mr-44 rounded-lg">CloudSync</p>
-                            <h1 class="text-2xl font-medium">Add Dark Mode</h1>
+                            <h1 id="title-card-2" class="text-2xl font-medium">Add Dark Mode</h1>
                             <p class="text-[#acadb1] bg-white p-4 rounded-md">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.
                             </p>
                         </div>
@@ -104,7 +104,7 @@
                                 <p class="text-[#989aa2] text-sm">Deadline</p>
                                 <h3>21 March 2025</h3>
                             </div>
-                            <button class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
+                            <button id="completed-btn-2" class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
                             <!-- <button class="bg-green-600 px-7 py-2 rounded-lg text-white"></button> -->
 
                         </div>
@@ -113,7 +113,7 @@
                     <div class="card-3 bg-[#F4F7FF] p-6 rounded-2xl">
                         <div class="card-details flex flex-col gap-4">
                             <p class="bg-white text-base p-4 mr-44 rounded-lg">SwiftPay</p>
-                            <h1 class="text-2xl font-medium">Optimize  Home page </h1>
+                            <h1 id="title-card-3"class="text-2xl font-medium">Optimize  Home page </h1>
                             <p class="text-[#acadb1] bg-white p-4 rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                                 and ensure onClick works properly
                             </p>
@@ -124,7 +124,7 @@
                                 <p class="text-[#989aa2] text-sm">Deadline</p>
                                 <h3>21 March 2025</h3>
                             </div>
-                            <button class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
+                            <button id="completed-btn-3" class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
                             <!-- <button class="bg-green-600 px-7 py-2 rounded-lg text-white"></button> -->
 
                         </div>
@@ -133,7 +133,7 @@
                     <div class="card-4 bg-[#F4F7FF] p-6 rounded-2xl">
                         <div class="card-details flex flex-col gap-4">
                             <p class="bg-white text-base p-4 mr-44 rounded-lg">Meta</p>
-                            <h1 class="text-2xl fbo">Add new emoji 🤲</h1>
+                            <h1 id="title-card-4"class="text-2xl fbo">Add new emoji 🤲</h1>
                             <p class="text-[#acadb1] bg-white p-4 rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
                                 properly
                                 and ensure onClick works properly
@@ -145,7 +145,7 @@
                                 <p class="text-[#989aa2] text-sm">Deadline</p>
                                 <h3>21 March 2025</h3>
                             </div>
-                            <button class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
+                            <button id="completed-btn-4" class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
                             <!-- <button class="bg-green-600 px-7 py-2 rounded-lg text-white"></button> -->
 
                         </div>
@@ -154,7 +154,7 @@
                     <div class="card-5 bg-[#F4F7FF] p-6 rounded-2xl">
                         <div class="card-details flex flex-col gap-4">
                             <p class="bg-white text-base p-4 mr-44 rounded-lg">Google LLC</p>
-                            <h1 class="text-2xl fbo">Integrate OpenAI API </h1>
+                            <h1 id="title-card-5" class="text-2xl fbo">Integrate OpenAI API </h1>
                             <p class="text-[#acadb1] bg-white p-4 rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
                                 properly
                                 and ensure onClick works properly
@@ -166,7 +166,7 @@
                                 <p class="text-[#989aa2] text-sm">Deadline</p>
                                 <h3>21 March 2025</h3>
                             </div>
-                            <button class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
+                            <button id="completed-btn-5" class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
                             <!-- <button class="bg-green-600 px-7 py-2 rounded-lg text-white"></button> -->
 
                         </div>
@@ -175,7 +175,7 @@
                     <div class="card-6 bg-[#F4F7FF] p-6 rounded-2xl">
                         <div class="card-details flex flex-col gap-4">
                             <p class="bg-white text-base p-4 mr-44 rounded-lg">Glassdoar</p>
-                            <h1 class="text-2xl fbo">Improve Job searching </h1>
+                            <h1 id="title-card-6" class="text-2xl fbo">Improve Job searching </h1>
                             <p class="text-[#acadb1] bg-white p-4 rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
                                 properly
                                 and ensure onClick works properly
@@ -187,7 +187,7 @@
                                 <p class="text-[#989aa2] text-sm">Deadline</p>
                                 <h3>21 March 2025</h3>
                             </div>
-                            <button class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
+                            <button id="completed-btn-6" class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
                             <!-- <button class="bg-green-600 px-7 py-2 rounded-lg text-white"></button> -->
 
                         </div>
@@ -224,7 +224,8 @@
 
     </footer>
     <!-- javascript files liinking -->
-     <script src="./script/clear-history.js"></script>
+    <script src="./script/color.js"></script> 
+    <script src="./script/clear-history.js"></script>
     <script src="./script/time.js"></script>
     <script src="./script/completed.js"></script>
     <script src="./script/script.js"></script>
