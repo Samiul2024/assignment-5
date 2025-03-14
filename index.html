@@ -23,7 +23,7 @@
             <div class="flex justify-between gap-11 items-center">
                 <div class="flex justify-between gap-2 bg-[#F4F7FF]  px-4 py-3 rounded-full">
                     <img class="h-8 w-8" src="./assets/checkbox.png" alt="">
-                    <h1 class="text-3xl font-bold">23</h1>
+                    <h1 id="task-completed" class="text-3xl font-bold">23</h1>
                 </div>
                 <img class="bg-[#F4F7FF]  p-4 rounded-full" src="./assets/theme-btn.png" alt="">
             </div>
@@ -42,11 +42,11 @@
                         </div>
                         <div>
                             <p>Task Assigned</p>
-                            <h1 class="font-bold text-3xl">05</h1>
+                            <h1 id="task-assigned" class="font-bold text-3xl">05</h1>
                         </div>
                     </div>
-                    <!-- task-2  -->
-                    <div class="task-2 p-4 bg-blue-600 rounded-xl flex ">
+                    <!-- task-2  discover something new-->
+                    <div id="blogs" class="task-2 p-4 bg-blue-600 rounded-xl flex ">
                         <div class=" flex items-center gap-6 px-10 py-">
                             <img src="./assets/board.png" alt="">
                             <p class="text-white text-2xl">Discover Something New Today!</p>
@@ -64,8 +64,8 @@
                         </div>
                     </div>
 
-                    <!-- <hr class="border-8"> -->
                 </div>
+                <hr class="border-dashed border mt-4">
 
                 <!-- card container section  -->
                 <div class="card-container mx-6 mt-8  justify-between grid grid-cols-3 gap-9">
@@ -85,7 +85,7 @@
                                 <p class="text-[#989aa2] text-sm">Deadline</p>
                                 <h3>21 March 2025</h3>
                             </div>
-                            <button class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
+                            <button id="completed-btn-1" class="bg-blue-600 px-7 py-2 text-base rounded-lg text-white">Completed</button>
                             <!-- <button class="bg-green-600 px-7 py-2 rounded-lg text-white"></button> -->
 
                         </div>
@@ -222,8 +222,8 @@
     </footer>
     <!-- javascript files liinking -->
     <script src=""></script>
-    <script src=""></script>
-    <script src=""></script>
+    <script src="./script/completed.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
