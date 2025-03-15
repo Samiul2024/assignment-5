@@ -1,5 +1,6 @@
-document.getElementById('back-desk').addEventListener('click',function(){
+document.getElementById('back-desk').addEventListener('click',function(event){
     // alert('back')
+    event.preventDefault();
     window.location.href='index.html'
 })
 

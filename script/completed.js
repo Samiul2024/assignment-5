@@ -22,6 +22,8 @@ document.getElementById('completed-btn-1').addEventListener('click', function ()
 
     // button disable when clicked
     document.getElementById('completed-btn-1').disabled = true;
+    document.getElementById('completed-btn-1').style.opacity='0.3';
+    document.getElementById('completed-btn-1').style.cursor='not-allowed';
     // const updatedHistory = document.createElement('p');
 
     // history
@@ -78,6 +80,8 @@ document.getElementById('completed-btn-2').addEventListener('click', function ()
 
     // button disable when clicked
     document.getElementById('completed-btn-2').disabled = true;
+    document.getElementById('completed-btn-2').style.opacity='0.3';
+    document.getElementById('completed-btn-2').style.cursor='not-allowed';
     // const updatedHistory = document.createElement('p');
 
     // history
@@ -127,6 +131,8 @@ document.getElementById('completed-btn-3').addEventListener('click', function ()
 
     // button disable when clicked
     document.getElementById('completed-btn-3').disabled = true;
+    document.getElementById('completed-btn-3').style.opacity='0.3';
+    document.getElementById('completed-btn-3').style.cursor='not-allowed';
     // const updatedHistory = document.createElement('p');
 
     // history
@@ -177,6 +183,8 @@ document.getElementById('completed-btn-4').addEventListener('click', function ()
 
     // button disable when clicked
     document.getElementById('completed-btn-4').disabled = true;
+    document.getElementById('completed-btn-4').style.opacity='0.3';
+    document.getElementById('completed-btn-4').style.cursor='not-allowed';
     // const updatedHistory = document.createElement('p');
 
     // history
@@ -226,6 +234,8 @@ document.getElementById('completed-btn-5').addEventListener('click', function ()
 
     // button disable when clicked
     document.getElementById('completed-btn-5').disabled = true;
+    document.getElementById('completed-btn-5').style.opacity='0.3';
+    document.getElementById('completed-btn-5').style.cursor='not-allowed';
     // const updatedHistory = document.createElement('p');
 
     // history
@@ -275,6 +285,8 @@ document.getElementById('completed-btn-6').addEventListener('click', function ()
 
     // button disable when clicked
     document.getElementById('completed-btn-6').disabled = true;
+    document.getElementById('completed-btn-6').style.opacity='0.3';
+    document.getElementById('completed-btn-6').style.cursor='not-allowed';
     // const updatedHistory = document.createElement('p');
 
     // history
